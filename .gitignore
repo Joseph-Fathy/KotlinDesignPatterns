@@ -14,7 +14,9 @@
 .cxx
 local.properties
 /.idea/
-/app/
+/app/src/androidTest/
+/app/src/main/
+/app/build.gradle
 /build/
 /gradle/
 /build.gradle
@@ -22,3 +24,5 @@ local.properties
 /gradlew
 /gradlew.bat
 /settings.gradle
+/app/proguard-rules.pro
+/app/.gitignore
