@@ -141,13 +141,13 @@ abstract class ComponentsFactory{
     abstract Component createComponent(Brand b);
 }
 //---------------------
-class CpuFactory{
+class CpuFactory extends ComponentsFactory{
     Component createComponent(Brand b){
         return new Cpu(b);
     }
 }
 //---------------------
-class StorageFactory{
+class StorageFactory  extends ComponentsFactory{
     Component createComponent(Brand b){
         return new Storage(b,256);
     }
